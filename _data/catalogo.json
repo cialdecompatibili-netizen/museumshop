@@ -324,6 +324,150 @@
           "descrizione": "Neon, dystopian cities and extreme technology: the cyberpunk imagination between Blade Runner and contemporary hi-tech aesthetics."
         }
       }
+    },
+    {
+      "nome": "Puzzle d'Arte",
+      "id": "puzzle-d-arte",
+      "icona": "🏷",
+      "descrizione": "Puzzle con i grandi capolavori, da 500 a 2000 pezzi: un regalo che si trova sempre.",
+      "tr": {
+        "en": {
+          "nome": "Art Puzzles",
+          "descrizione": "Puzzles of the great masterpieces, from 500 to 2000 pieces: an ever-popular gift."
+        }
+      }
+    },
+    {
+      "nome": "Tele e Quadri su Tela",
+      "id": "tele-e-quadri-su-tela",
+      "icona": "🏷",
+      "descrizione": "Riproduzioni su tela pronte da appendere, in più misure, per arredare casa o ufficio.",
+      "tr": {
+        "en": {
+          "nome": "Canvas Prints",
+          "descrizione": "Ready-to-hang canvas reproductions in several sizes, to decorate home or office."
+        }
+      }
+    },
+    {
+      "nome": "Sciarpe e Foulard",
+      "id": "sciarpe-e-foulard",
+      "icona": "🏷",
+      "descrizione": "Foulard, sciarpe e stole con stampe ispirate ai grandi maestri, eleganti e facili da regalare.",
+      "tr": {
+        "en": {
+          "nome": "Scarves and Foulards",
+          "descrizione": "Foulards, scarves and shawls with prints inspired by the great masters, elegant and easy to gift."
+        }
+      }
+    },
+    {
+      "nome": "Cover Smartphone e Tech",
+      "id": "cover-smartphone-e-tech",
+      "icona": "🏷",
+      "descrizione": "Cover per telefono, tappetini per mouse e accessori tech con opere d'arte iconiche.",
+      "tr": {
+        "en": {
+          "nome": "Phone Cases and Tech",
+          "descrizione": "Phone cases, mouse pads and tech accessories with iconic artworks."
+        }
+      }
+    },
+    {
+      "nome": "Giochi e Kit Creativi per Bambini",
+      "id": "giochi-e-kit-creativi-per-bambini",
+      "icona": "🏷",
+      "descrizione": "Libri da colorare, kit di pittura e giochi per far conoscere l'arte ai più piccoli.",
+      "tr": {
+        "en": {
+          "nome": "Kids' Games and Craft Kits",
+          "descrizione": "Colouring books, painting kits and games to introduce art to children."
+        }
+      }
+    },
+    {
+      "nome": "Calendari e Agende d'Arte",
+      "id": "calendari-e-agende-d-arte",
+      "icona": "🏷",
+      "descrizione": "Calendari da parete, agende e planner illustrati con i capolavori di ogni epoca.",
+      "tr": {
+        "en": {
+          "nome": "Art Calendars and Planners",
+          "descrizione": "Wall calendars, diaries and planners illustrated with masterpieces of every era."
+        }
+      }
+    },
+    {
+      "nome": "Idee Regalo",
+      "id": "idee-regalo",
+      "icona": "🏷",
+      "descrizione": "Confezioni regalo e set a tema artistico per compleanni, Natale e ricorrenze.",
+      "tr": {
+        "en": {
+          "nome": "Gift Ideas",
+          "descrizione": "Gift boxes and art-themed sets for birthdays, Christmas and special occasions."
+        }
+      }
+    },
+    {
+      "nome": "Art Nouveau e Liberty",
+      "id": "art-nouveau-e-liberty",
+      "icona": "🏷",
+      "descrizione": "Klimt, Mucha e le linee sinuose del Liberty: decorazioni floreali ed eleganza d'inizio Novecento.",
+      "tr": {
+        "en": {
+          "nome": "Art Nouveau and Liberty Style",
+          "descrizione": "Klimt, Mucha and the flowing lines of Liberty style: floral decoration and early 20th-century elegance."
+        }
+      }
+    },
+    {
+      "nome": "Surrealismo",
+      "id": "surrealismo",
+      "icona": "🏷",
+      "descrizione": "Dalì, Magritte, Ernst: sogni, simboli e immagini impossibili su prodotti originali.",
+      "tr": {
+        "en": {
+          "nome": "Surrealism",
+          "descrizione": "Dalí, Magritte, Ernst: dreams, symbols and impossible images on original products."
+        }
+      }
+    },
+    {
+      "nome": "Pop Art e Street Art",
+      "id": "pop-art-e-street-art",
+      "icona": "🏷",
+      "descrizione": "Warhol, Lichtenstein, Banksy e Keith Haring: colori vivaci e cultura pop per chi ama l'arte urbana.",
+      "tr": {
+        "en": {
+          "nome": "Pop Art and Street Art",
+          "descrizione": "Warhol, Lichtenstein, Banksy and Keith Haring: vivid colours and pop culture for urban art lovers."
+        }
+      }
+    },
+    {
+      "nome": "Ukiyo-e e Arte Giapponese",
+      "id": "ukiyo-e-e-arte-giapponese",
+      "icona": "🏷",
+      "descrizione": "Hokusai, Hiroshige e le stampe giapponesi: la Grande Onda e i paesaggi del Giappone antico.",
+      "tr": {
+        "en": {
+          "nome": "Ukiyo-e and Japanese Art",
+          "descrizione": "Hokusai, Hiroshige and Japanese prints: the Great Wave and the landscapes of old Japan."
+        }
+      }
+    },
+    {
+      "nome": "Gatti nell'Arte",
+      "id": "gatti-nell-arte",
+      "icona": "🏷",
+      "descrizione": "Gatti dipinti dai grandi maestri e dall'arte giapponese: un tema amatissimo per gli amanti degli animali.",
+      "tr": {
+        "en": {
+          "nome": "Cats in Art",
+          "descrizione": "Cats painted by the great masters and in Japanese art: a much-loved theme for animal lovers."
+        }
+      }
     }
   ],
   "prodotti": []

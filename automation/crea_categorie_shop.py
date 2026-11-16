@@ -36,6 +36,19 @@ C = [
  ("Futurismo","Boccioni, Balla, Depero: velocità, macchine e movimento nell'avanguardia italiana che ha immaginato il futuro cent'anni fa.","Futurism","Boccioni, Balla, Depero: speed, machines and movement in the Italian avant-garde that imagined the future a hundred years ago."),
  ("Fantascienza Retro","Astronavi, robot e viaggi nel tempo con l'estetica pulp e vintage della sci-fi classica, da Ritorno al Futuro alle copertine anni '50-'80.","Retro Sci-Fi","Spaceships, robots and time travel with the pulp and vintage look of classic sci-fi, from Back to the Future to 1950s-80s covers."),
  ("Cyberpunk","Neon, metropoli distopiche e tecnologia estrema: l'immaginario cyberpunk tra Blade Runner e l'estetica hi-tech contemporanea.","Cyberpunk","Neon, dystopian cities and extreme technology: the cyberpunk imagination between Blade Runner and contemporary hi-tech aesthetics."),
+ # --- aggiunte 16/11/2026: prodotti ad alto margine e movimenti molto cercati ---
+ ("Puzzle d'Arte","Puzzle con i grandi capolavori, da 500 a 2000 pezzi: un regalo che si trova sempre.","Art Puzzles","Puzzles of the great masterpieces, from 500 to 2000 pieces: an ever-popular gift."),
+ ("Tele e Quadri su Tela","Riproduzioni su tela pronte da appendere, in più misure, per arredare casa o ufficio.","Canvas Prints","Ready-to-hang canvas reproductions in several sizes, to decorate home or office."),
+ ("Sciarpe e Foulard","Foulard, sciarpe e stole con stampe ispirate ai grandi maestri, eleganti e facili da regalare.","Scarves and Foulards","Foulards, scarves and shawls with prints inspired by the great masters, elegant and easy to gift."),
+ ("Cover Smartphone e Tech","Cover per telefono, tappetini per mouse e accessori tech con opere d'arte iconiche.","Phone Cases and Tech","Phone cases, mouse pads and tech accessories with iconic artworks."),
+ ("Giochi e Kit Creativi per Bambini","Libri da colorare, kit di pittura e giochi per far conoscere l'arte ai più piccoli.","Kids' Games and Craft Kits","Colouring books, painting kits and games to introduce art to children."),
+ ("Calendari e Agende d'Arte","Calendari da parete, agende e planner illustrati con i capolavori di ogni epoca.","Art Calendars and Planners","Wall calendars, diaries and planners illustrated with masterpieces of every era."),
+ ("Idee Regalo","Confezioni regalo e set a tema artistico per compleanni, Natale e ricorrenze.","Gift Ideas","Gift boxes and art-themed sets for birthdays, Christmas and special occasions."),
+ ("Art Nouveau e Liberty","Klimt, Mucha e le linee sinuose del Liberty: decorazioni floreali ed eleganza d'inizio Novecento.","Art Nouveau and Liberty Style","Klimt, Mucha and the flowing lines of Liberty style: floral decoration and early 20th-century elegance."),
+ ("Surrealismo","Dalì, Magritte, Ernst: sogni, simboli e immagini impossibili su prodotti originali.","Surrealism","Dalí, Magritte, Ernst: dreams, symbols and impossible images on original products."),
+ ("Pop Art e Street Art","Warhol, Lichtenstein, Banksy e Keith Haring: colori vivaci e cultura pop per chi ama l'arte urbana.","Pop Art and Street Art","Warhol, Lichtenstein, Banksy and Keith Haring: vivid colours and pop culture for urban art lovers."),
+ ("Ukiyo-e e Arte Giapponese","Hokusai, Hiroshige e le stampe giapponesi: la Grande Onda e i paesaggi del Giappone antico.","Ukiyo-e and Japanese Art","Hokusai, Hiroshige and Japanese prints: the Great Wave and the landscapes of old Japan."),
+ ("Gatti nell'Arte","Gatti dipinti dai grandi maestri e dall'arte giapponese: un tema amatissimo per gli amanti degli animali.","Cats in Art","Cats painted by the great masters and in Japanese art: a much-loved theme for animal lovers."),
 ]
 def slug(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()

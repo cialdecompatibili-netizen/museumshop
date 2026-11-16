@@ -106,5 +106,53 @@
   {
     "nome": "Cyberpunk",
     "slug": "cyberpunk"
+  },
+  {
+    "nome": "Puzzle d'Arte",
+    "slug": "puzzle-d-arte"
+  },
+  {
+    "nome": "Tele e Quadri su Tela",
+    "slug": "tele-e-quadri-su-tela"
+  },
+  {
+    "nome": "Sciarpe e Foulard",
+    "slug": "sciarpe-e-foulard"
+  },
+  {
+    "nome": "Cover Smartphone e Tech",
+    "slug": "cover-smartphone-e-tech"
+  },
+  {
+    "nome": "Giochi e Kit Creativi per Bambini",
+    "slug": "giochi-e-kit-creativi-per-bambini"
+  },
+  {
+    "nome": "Calendari e Agende d'Arte",
+    "slug": "calendari-e-agende-d-arte"
+  },
+  {
+    "nome": "Idee Regalo",
+    "slug": "idee-regalo"
+  },
+  {
+    "nome": "Art Nouveau e Liberty",
+    "slug": "art-nouveau-e-liberty"
+  },
+  {
+    "nome": "Surrealismo",
+    "slug": "surrealismo"
+  },
+  {
+    "nome": "Pop Art e Street Art",
+    "slug": "pop-art-e-street-art"
+  },
+  {
+    "nome": "Ukiyo-e e Arte Giapponese",
+    "slug": "ukiyo-e-e-arte-giapponese"
+  },
+  {
+    "nome": "Gatti nell'Arte",
+    "slug": "gatti-nell-arte"
   }
 ]
