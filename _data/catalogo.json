@@ -2,35 +2,329 @@
   "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
   "categorie": [
     {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
+      "nome": "Stampe d'Arte",
+      "id": "stampe-d-arte",
+      "icona": "🏷",
+      "descrizione": "Riproduzioni su carta fine art dei grandi capolavori, pronte per essere incorniciate.",
       "tr": {
         "en": {
-          "nome": "Example"
+          "nome": "Art Prints",
+          "descrizione": "Fine art paper reproductions of the great masterpieces, ready to be framed."
+        }
+      }
+    },
+    {
+      "nome": "Poster Digitali",
+      "id": "poster-digitali",
+      "icona": "🏷",
+      "descrizione": "Immagini in alta risoluzione dei grandi capolavori, download immediato, stampabili a casa o in copisteria.",
+      "tr": {
+        "en": {
+          "nome": "Digital Posters",
+          "descrizione": "High-resolution images of the great masterpieces, instant download, printable at home or at a print shop."
+        }
+      }
+    },
+    {
+      "nome": "Tazze e Accessori Casa",
+      "id": "tazze-e-accessori-casa",
+      "icona": "🏷",
+      "descrizione": "Tazze, magneti e complementi d'arredo ispirati alle grandi opere, per portare l'arte nella vita quotidiana.",
+      "tr": {
+        "en": {
+          "nome": "Mugs and Home Accessories",
+          "descrizione": "Mugs, magnets and home decor inspired by great works, bringing art into everyday life."
+        }
+      }
+    },
+    {
+      "nome": "Cartoline da Collezione",
+      "id": "cartoline-da-collezione",
+      "icona": "🏷",
+      "descrizione": "Cartoline artistiche di alta qualità con i capolavori più amati, perfette da collezionare o spedire.",
+      "tr": {
+        "en": {
+          "nome": "Collectible Postcards",
+          "descrizione": "High-quality art postcards with the most loved masterpieces, perfect to collect or send."
+        }
+      }
+    },
+    {
+      "nome": "Abbigliamento Arte",
+      "id": "abbigliamento-arte",
+      "icona": "🏷",
+      "descrizione": "T-shirt e capi ispirati ai grandi maestri, per indossare la passione per l'arte ogni giorno.",
+      "tr": {
+        "en": {
+          "nome": "Art Apparel",
+          "descrizione": "T-shirts and clothing inspired by the great masters, to wear your passion for art every day."
+        }
+      }
+    },
+    {
+      "nome": "Borse e Tote Bag",
+      "id": "borse-e-tote-bag",
+      "icona": "🏷",
+      "descrizione": "Tote bag e borse in tela con stampe iconiche, pratiche per la spesa o come accessorio quotidiano.",
+      "tr": {
+        "en": {
+          "nome": "Bags and Tote Bags",
+          "descrizione": "Canvas tote bags with iconic prints, practical for shopping or as an everyday accessory."
+        }
+      }
+    },
+    {
+      "nome": "Gioielli Ispirati all'Arte",
+      "id": "gioielli-ispirati-all-arte",
+      "icona": "🏷",
+      "descrizione": "Gioielli ed accessori che reinterpretano motivi e dettagli dei grandi capolavori.",
+      "tr": {
+        "en": {
+          "nome": "Art-Inspired Jewelry",
+          "descrizione": "Jewelry and accessories that reinterpret motifs and details of the great masterpieces."
+        }
+      }
+    },
+    {
+      "nome": "Cartoleria e Libri",
+      "id": "cartoleria-e-libri",
+      "icona": "🏷",
+      "descrizione": "Quaderni, agende e libri d'arte per accompagnare studio, lavoro e creatività quotidiana.",
+      "tr": {
+        "en": {
+          "nome": "Stationery and Books",
+          "descrizione": "Notebooks, planners and art books to accompany study, work and everyday creativity."
+        }
+      }
+    },
+    {
+      "nome": "Antico Egitto",
+      "id": "antico-egitto",
+      "icona": "🏷",
+      "descrizione": "Piramidi, faraoni e geroglifici: prodotti ispirati a una delle civiltà più iconiche della storia.",
+      "tr": {
+        "en": {
+          "nome": "Ancient Egypt",
+          "descrizione": "Pyramids, pharaohs and hieroglyphs: products inspired by one of history's most iconic civilizations."
+        }
+      }
+    },
+    {
+      "nome": "Antica Grecia",
+      "id": "antica-grecia",
+      "icona": "🏷",
+      "descrizione": "Ceramiche, statue classiche e miti degli dei greci, per chi ama le origini dell'arte occidentale.",
+      "tr": {
+        "en": {
+          "nome": "Ancient Greece",
+          "descrizione": "Ceramics, classical statues and myths of the Greek gods, for lovers of the origins of Western art."
+        }
+      }
+    },
+    {
+      "nome": "Rinascimento",
+      "id": "rinascimento",
+      "icona": "🏷",
+      "descrizione": "Leonardo, Michelangelo, Raffaello: i capolavori del Rinascimento italiano su ogni tipo di prodotto.",
+      "tr": {
+        "en": {
+          "nome": "Renaissance",
+          "descrizione": "Leonardo, Michelangelo, Raphael: the masterpieces of the Italian Renaissance on every kind of product."
+        }
+      }
+    },
+    {
+      "nome": "Mesopotamia e Vicino Oriente Antico",
+      "id": "mesopotamia-e-vicino-oriente-antico",
+      "icona": "🏷",
+      "descrizione": "Sumeri, Babilonesi e Assiri: la culla della civiltà tra scrittura cuneiforme e antichi imperi.",
+      "tr": {
+        "en": {
+          "nome": "Mesopotamia and the Ancient Near East",
+          "descrizione": "Sumerians, Babylonians and Assyrians: the cradle of civilization, between cuneiform writing and ancient empires."
+        }
+      }
+    },
+    {
+      "nome": "Antica Roma",
+      "id": "antica-roma",
+      "icona": "🏷",
+      "descrizione": "Mosaici, busti e affreschi dell'Impero Romano, per chi ama la grandezza della classicità latina.",
+      "tr": {
+        "en": {
+          "nome": "Ancient Rome",
+          "descrizione": "Mosaics, busts and frescoes of the Roman Empire, for lovers of the grandeur of Latin antiquity."
+        }
+      }
+    },
+    {
+      "nome": "Medioevo",
+      "id": "medioevo",
+      "icona": "🏷",
+      "descrizione": "Arte bizantina, gotico e miniature: l'epoca di cattedrali, codici miniati e simbolismo sacro.",
+      "tr": {
+        "en": {
+          "nome": "Middle Ages",
+          "descrizione": "Byzantine art, Gothic and miniatures: the age of cathedrals, illuminated manuscripts and sacred symbolism."
+        }
+      }
+    },
+    {
+      "nome": "Arte Precolombiana",
+      "id": "arte-precolombiana",
+      "icona": "🏷",
+      "descrizione": "Maya, Aztechi e Inca: maschere, dei e simboli delle grandi civiltà dell'America precolombiana.",
+      "tr": {
+        "en": {
+          "nome": "Pre-Columbian Art",
+          "descrizione": "Maya, Aztecs and Incas: masks, gods and symbols of the great civilizations of pre-Columbian America."
+        }
+      }
+    },
+    {
+      "nome": "Arte Islamica",
+      "id": "arte-islamica",
+      "icona": "🏷",
+      "descrizione": "Calligrafia, geometrie e arabeschi: la raffinatezza decorativa del mondo islamico classico.",
+      "tr": {
+        "en": {
+          "nome": "Islamic Art",
+          "descrizione": "Calligraphy, geometry and arabesques: the decorative refinement of the classical Islamic world."
+        }
+      }
+    },
+    {
+      "nome": "Arte Asiatica",
+      "id": "arte-asiatica",
+      "icona": "🏷",
+      "descrizione": "Cina, Giappone e Sud-Est asiatico: porcellane, stampe e sculture di millenni di civiltà orientali.",
+      "tr": {
+        "en": {
+          "nome": "Asian Art",
+          "descrizione": "China, Japan and Southeast Asia: porcelain, prints and sculptures from millennia of Eastern civilizations."
+        }
+      }
+    },
+    {
+      "nome": "Arte Africana e Oceaniana",
+      "id": "arte-africana-e-oceaniana",
+      "icona": "🏷",
+      "descrizione": "Maschere tribali, sculture rituali e arte primitiva: l'energia espressiva di Africa e Oceania.",
+      "tr": {
+        "en": {
+          "nome": "African and Oceanic Art",
+          "descrizione": "Tribal masks, ritual sculptures and primitive art: the expressive energy of Africa and Oceania."
+        }
+      }
+    },
+    {
+      "nome": "Barocco",
+      "id": "barocco",
+      "icona": "🏷",
+      "descrizione": "Caravaggio, Bernini, Rubens: teatralità, luce drammatica e movimento nell'arte del Seicento.",
+      "tr": {
+        "en": {
+          "nome": "Baroque",
+          "descrizione": "Caravaggio, Bernini, Rubens: theatricality, dramatic light and movement in 17th-century art."
+        }
+      }
+    },
+    {
+      "nome": "Impressionismo",
+      "id": "impressionismo",
+      "icona": "🏷",
+      "descrizione": "Monet, Degas, Renoir: luce, colore e attimo fuggente nella rivoluzione pittorica di fine Ottocento.",
+      "tr": {
+        "en": {
+          "nome": "Impressionism",
+          "descrizione": "Monet, Degas, Renoir: light, colour and the fleeting moment in the painting revolution of the late 19th century."
+        }
+      }
+    },
+    {
+      "nome": "Preistoria",
+      "id": "preistoria",
+      "icona": "🏷",
+      "descrizione": "Arte rupestre, megaliti e le prime forme d'espressione dell'umanità, da Lascaux a Stonehenge.",
+      "tr": {
+        "en": {
+          "nome": "Prehistory",
+          "descrizione": "Cave art, megaliths and humanity's first forms of expression, from Lascaux to Stonehenge."
+        }
+      }
+    },
+    {
+      "nome": "Romanticismo e Neoclassicismo",
+      "id": "romanticismo-e-neoclassicismo",
+      "icona": "🏷",
+      "descrizione": "Goya, David, Delacroix: passione, natura e ideali classici tra Settecento e Ottocento.",
+      "tr": {
+        "en": {
+          "nome": "Romanticism and Neoclassicism",
+          "descrizione": "Goya, David, Delacroix: passion, nature and classical ideals between the 18th and 19th centuries."
+        }
+      }
+    },
+    {
+      "nome": "Arte Moderna del Novecento",
+      "id": "arte-moderna-del-novecento",
+      "icona": "🏷",
+      "descrizione": "Cubismo, surrealismo, espressionismo: Klimt, Munch e la rivoluzione delle avanguardie del XX secolo.",
+      "tr": {
+        "en": {
+          "nome": "20th-Century Modern Art",
+          "descrizione": "Cubism, surrealism, expressionism: Klimt, Munch and the revolution of the 20th-century avant-gardes."
+        }
+      }
+    },
+    {
+      "nome": "Arte Contemporanea",
+      "id": "arte-contemporanea",
+      "icona": "🏷",
+      "descrizione": "Pop art, street art e arte digitale: le espressioni più recenti e provocatorie della creatività umana.",
+      "tr": {
+        "en": {
+          "nome": "Contemporary Art",
+          "descrizione": "Pop art, street art and digital art: the most recent and provocative expressions of human creativity."
+        }
+      }
+    },
+    {
+      "nome": "Futurismo",
+      "id": "futurismo",
+      "icona": "🏷",
+      "descrizione": "Boccioni, Balla, Depero: velocità, macchine e movimento nell'avanguardia italiana che ha immaginato il futuro cent'anni fa.",
+      "tr": {
+        "en": {
+          "nome": "Futurism",
+          "descrizione": "Boccioni, Balla, Depero: speed, machines and movement in the Italian avant-garde that imagined the future a hundred years ago."
+        }
+      }
+    },
+    {
+      "nome": "Fantascienza Retro",
+      "id": "fantascienza-retro",
+      "icona": "🏷",
+      "descrizione": "Astronavi, robot e viaggi nel tempo con l'estetica pulp e vintage della sci-fi classica, da Ritorno al Futuro alle copertine anni '50-'80.",
+      "tr": {
+        "en": {
+          "nome": "Retro Sci-Fi",
+          "descrizione": "Spaceships, robots and time travel with the pulp and vintage look of classic sci-fi, from Back to the Future to 1950s-80s covers."
+        }
+      }
+    },
+    {
+      "nome": "Cyberpunk",
+      "id": "cyberpunk",
+      "icona": "🏷",
+      "descrizione": "Neon, metropoli distopiche e tecnologia estrema: l'immaginario cyberpunk tra Blade Runner e l'estetica hi-tech contemporanea.",
+      "tr": {
+        "en": {
+          "nome": "Cyberpunk",
+          "descrizione": "Neon, dystopian cities and extreme technology: the cyberpunk imagination between Blade Runner and contemporary hi-tech aesthetics."
         }
       }
     }
   ],
-  "prodotti": [
-    {
-      "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
-      "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
-      "immagine": "",
-      "icona": "🛍️",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
-        }
-      }
-    }
-  ]
+  "prodotti": []
 }

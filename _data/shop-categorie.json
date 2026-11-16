@@ -1,6 +1,110 @@
 [
   {
-    "nome": "esempio",
-    "slug": "esempio"
+    "nome": "Stampe d'Arte",
+    "slug": "stampe-d-arte"
+  },
+  {
+    "nome": "Poster Digitali",
+    "slug": "poster-digitali"
+  },
+  {
+    "nome": "Tazze e Accessori Casa",
+    "slug": "tazze-e-accessori-casa"
+  },
+  {
+    "nome": "Cartoline da Collezione",
+    "slug": "cartoline-da-collezione"
+  },
+  {
+    "nome": "Abbigliamento Arte",
+    "slug": "abbigliamento-arte"
+  },
+  {
+    "nome": "Borse e Tote Bag",
+    "slug": "borse-e-tote-bag"
+  },
+  {
+    "nome": "Gioielli Ispirati all'Arte",
+    "slug": "gioielli-ispirati-all-arte"
+  },
+  {
+    "nome": "Cartoleria e Libri",
+    "slug": "cartoleria-e-libri"
+  },
+  {
+    "nome": "Antico Egitto",
+    "slug": "antico-egitto"
+  },
+  {
+    "nome": "Antica Grecia",
+    "slug": "antica-grecia"
+  },
+  {
+    "nome": "Rinascimento",
+    "slug": "rinascimento"
+  },
+  {
+    "nome": "Mesopotamia e Vicino Oriente Antico",
+    "slug": "mesopotamia-e-vicino-oriente-antico"
+  },
+  {
+    "nome": "Antica Roma",
+    "slug": "antica-roma"
+  },
+  {
+    "nome": "Medioevo",
+    "slug": "medioevo"
+  },
+  {
+    "nome": "Arte Precolombiana",
+    "slug": "arte-precolombiana"
+  },
+  {
+    "nome": "Arte Islamica",
+    "slug": "arte-islamica"
+  },
+  {
+    "nome": "Arte Asiatica",
+    "slug": "arte-asiatica"
+  },
+  {
+    "nome": "Arte Africana e Oceaniana",
+    "slug": "arte-africana-e-oceaniana"
+  },
+  {
+    "nome": "Barocco",
+    "slug": "barocco"
+  },
+  {
+    "nome": "Impressionismo",
+    "slug": "impressionismo"
+  },
+  {
+    "nome": "Preistoria",
+    "slug": "preistoria"
+  },
+  {
+    "nome": "Romanticismo e Neoclassicismo",
+    "slug": "romanticismo-e-neoclassicismo"
+  },
+  {
+    "nome": "Arte Moderna del Novecento",
+    "slug": "arte-moderna-del-novecento"
+  },
+  {
+    "nome": "Arte Contemporanea",
+    "slug": "arte-contemporanea"
+  },
+  {
+    "nome": "Futurismo",
+    "slug": "futurismo"
+  },
+  {
+    "nome": "Fantascienza Retro",
+    "slug": "fantascienza-retro"
+  },
+  {
+    "nome": "Cyberpunk",
+    "slug": "cyberpunk"
   }
 ]
